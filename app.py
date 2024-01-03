@@ -6,8 +6,8 @@ import uuid
 app = Flask(__name__)
 
 # Azure Storage credentials
-AZURE_STORAGE_CONNECTION_STRING = 'your_storage_connection_string'
-CONTAINER_NAME = 'your_container_name'
+AZURE_STORAGE_CONNECTION_STRING = 'ROrIDrs55jAz7YqY4SCJ8V7NhjNG1YFdVL/m6wOfBv6dKpfTgLnbpNiET5Ef68vye3fcD73kn6qg+AStutibTw=='
+CONTAINER_NAME = 'welcome'
 
 # Create a BlobServiceClient
 blob_service_client = BlobServiceClient.from_connection_string(AZURE_STORAGE_CONNECTION_STRING)
